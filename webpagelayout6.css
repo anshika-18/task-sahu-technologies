@@ -1,0 +1,356 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar
+{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    background-color: rgb(240, 240, 240);
+    padding: 1rem;
+}
+.Directory
+{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.pro
+{
+    background-color: rgb(0,240,0);
+    font-weight: 600;
+    padding: 0.2rem;
+}
+.Directory:hover,.pro:hover
+{
+    cursor: pointer;
+}
+.content 
+{
+    align-self: center;
+}
+.home
+{
+    border: 0;
+    background-color: rgb(240, 240, 240);
+    font-size: 1rem;
+    margin-left: 1.8rem;
+}
+.more
+{
+    text-decoration: none;
+    color:black;
+    font-size: 1rem;
+    margin-left: 1.8rem;
+}
+.button button
+{
+    border:0;
+    font-weight: 700;
+    padding: 0.5rem;
+    outline: 0;
+}
+.add
+{
+    background-color: rgb(0,240,0);
+}
+.add:hover
+{
+    opacity: 0.7;
+}
+select:hover,a
+{
+    cursor: pointer;    
+}
+.number,.person,.globe,.cart
+{
+    background-color: rgb(230, 230, 230);
+}
+
+.number:hover,.person:hover,.globe:hover,.cart:hover
+{
+    background-color: rgb(240, 240, 240);
+}
+.image img
+{
+    width: 100%;
+    position: relative;
+}
+.contact
+{
+    position: absolute;
+    top:30%;
+    left:10%;
+    width: 20rem;
+    padding: 1.5rem;
+    background-color: white;
+}
+.contact span
+{
+    font-weight: 900;
+}
+.main
+{
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+.left img
+{
+    width: 100%;
+}
+.left-head
+{
+    text-align: center;
+}
+.left-head span
+{
+    font-weight: 800;
+}
+.left
+{
+    padding: 7%;
+}
+.left-foot
+{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding-top: 6%;
+}
+.left-foot-link button
+{
+    border: 0;
+    padding: 1rem;
+}
+.left-foot-link
+{
+    margin-left: 25%;
+    padding: 1rem;
+}
+.left-foot-link button:hover
+{
+    background-color: rgb(230, 230, 230);
+}
+.right-head
+{
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 1rem;
+}
+.right-text
+{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.right-form form .input
+{
+    width: 45%;
+}
+.right-form form textarea
+{
+    width: 95%;
+}
+.right-form form input,.right-form form textarea
+{
+    margin-right: 1.2rem;
+    margin-bottom: 1.2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+.right-button
+{
+    width: 7rem;
+    border: 0;
+    background-color: blue;
+    color: white;
+    font-weight: 800;
+    border-radius:1rem;
+
+}
+.right-button:hover
+{
+    opacity: 0.7;
+}
+.map
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 1.5rem;
+}
+.map img
+{
+    width:100%;
+}
+.map-text
+{
+    padding:1rem ;
+}
+.map-head svg
+{
+    color: green;
+    margin-right: 1rem;
+}
+.map-head
+{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.foot1
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(230, 230, 230);
+}
+.people
+{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 2rem;
+}
+.people img
+{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 50%;
+}
+.person-name
+{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.person-type
+{
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    opacity: 0.7;
+}
+.person-about
+{
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+.person-contact
+{
+    display:grid;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.person-links
+{
+    margin-top: 1rem;
+}
+.person-links button
+{
+    border: 0;
+    padding: 1rem;
+}
+.person-links button:hover
+{
+    background-color: rgb(230, 230, 230);
+}
+.foot2
+{
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color:white;
+    padding: 4rem;
+}
+
+
+.burger
+{
+    color:greenyellow;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-top: 1rem;
+}
+.part2-middle
+{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.part2-middle img
+{
+    width: 100%;
+    padding: 1rem;
+}
+.part-text
+{
+    margin-top: 1rem;
+}
+.part1
+{
+    padding: 1rem;
+}
+.part2
+{
+    padding: 1rem;
+}
+.part3
+{
+    padding: 1rem;
+}
+.part1-foot
+{
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.part2-head
+{
+    font-weight: 800;
+    
+}
+.part3-button button
+{
+    border:0;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .main{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .right
+    {
+        padding: 1rem;
+    }
+    .map,.foot1,.foot2,.navbar,.content
+    {
+        display: grid;
+        grid-template-columns:100%;
+    }
+    .contact
+    {
+        margin-top: 10%;
+    }
+  }
+
+  .part3-button button
+  {
+      background-color: greenyellow;
+      font-size: 1rem;
+      padding: 0.5rem;
+      font-weight: 900;
+      border-radius: 1rem;
+  }
+  .part3-button
+  {
+      margin-top: 1rem;
+  }
+  .part3-button button:hover
+  {
+      opacity: 0.8;
+      cursor: pointer;
+  }
+
+  button:hover
+  {
+      cursor: pointer;
+  }
